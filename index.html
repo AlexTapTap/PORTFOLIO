@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МАСЛОВ АЛЕКСЕЙ — REEL & PORTFOLIO</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="locked">
+
+    <!-- Задний план: Твоя 3D Сцена Spline -->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.97/build/spline-viewer.js"></script>
+    <spline-viewer id="main-scene" url="https://prod.spline.design/aFl3QC5n9eWqPuXY/scene.splinecode"></spline-viewer>
+
+    <!-- Интерфейс сайта поверх 3D -->
+    <div class="scroll-wrapper">
+        
+        <!-- Сцена 1: Атмосферное Интро -->
+        <section class="screen" id="screen-intro">
+            <div id="trigger-enter" class="intro-trigger" style="display: none; opacity: 0;">[ НАЖМИТЕ ENTER, ЧТОБЫ ВОЙТИ ]</div>
+        </section>
+        
+        <!-- Сцена 2: Главный экран (Hero) -->
+        <section class="screen" id="hero">
+            <div class="content-block hero-block">
+                <span class="system-tag">// ACCESS_GRANTED // ARTIST_ID_03</span>
+                <h1>&lt; АЛЕКСЕЙ &gt;</h1>
+                <p class="hero-subtitle">Создаю миры на стыке дизайна и кода</p>
+                
+                <div class="tag-container">
+                    <span class="badge">3D ART</span>
+                    <span class="badge">UE5 LEVEL DESIGN</span>
+                    <span class="badge">TECH WEBDEV</span>
+                </div>
+                
+                <div class="software-row">
+                    <div class="soft-wrapper" title="Unreal Engine 5"><i class="fa-solid fa-gamepad"></i><span>UE5</span></div>
+                    <div class="soft-wrapper" title="Blender"><i class="fa-solid fa-cube"></i><span>BLENDER</span></div>
+                    <div class="soft-wrapper" title="Figma"><i class="fa-solid fa-bezier-curve"></i><span>FIGMA</span></div>
+                    <div class="soft-wrapper" title="HTML5 & CSS3"><i class="fa-solid fa-code"></i><span>WEB</span></div>
+                </div>
+
+                <a href="#about" class="btn btn-anchor">СМОТРЕТЬ ПРОЕКТЫ <i class="fa-solid fa-arrow-down-long"></i></a>
+            </div>
+        </section>
+
+        <!-- Сцена 3: Обо мне (Твой обновленный текст) -->
+        <section class="screen-auto" id="about">
+            <div class="content-block wide-block">
+                <span class="system-tag">// PROFILE // SUMMARY //</span>
+                <h2>МОЙ ОПЫТ И СТЕК</h2>
+                <p class="profile-text">
+                    Привет. Я увлекаюсь 3D моделированием уже 3 года. Мой основной инструмент — <strong>BLENDER 3D</strong>: высокополигональное моделирование, скульптинг, запекание в Marmoset Toolbag. На этом основании собрана вся остальная цепочка: сборка сцен в Unreal Engine 5, веб-интерфейсы на HTML/CSS, концепты и UI в Figma. <br><br>На меня можно положиться. Три года работы в 3D дали главное — дисциплину и понимание всего пайплайна. От моделинга в Blender до готового проекта. Ищу команду, с которой хочется расти и выдавать результат.
+                </p>
+            </div>
+        </section>
+
+        <!-- Сцена 4: Технический стек (Разбит ровно 2х2 с PHP/Open Server) -->
+        <section class="screen-auto" id="skills">
+            <div class="content-block wide-block">
+                <span class="system-tag">// SYSTEM_CAPABILITIES // MATRIX</span>
+                <h2>ТЕХНИЧЕСКИЙ СТЕК</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>РАЗРАБОТКА ИГР</h3>
+                        <ul>
+                            <li>Unreal Engine 5 (3 года)</li>
+                            <li>Blueprints / Логика систем</li>
+                            <li>Интерактивные механики</li>
+                            <li>Level Design & Lighting</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>3D МОДЕЛИНГ</h3>
+                        <ul>
+                            <li>Blender 3D / Automation</li>
+                            <li>Spline 3D Web Integration</li>
+                            <li>High / Low Poly Modeling</li>
+                            <li>Baking & Texturing (Marmoset)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>ГРАФИКА & ВИДЕО</h3>
+                        <ul>
+                            <li>Adobe Photoshop / UI</li>
+                            <li>Adobe Illustrator / Vectors</li>
+                            <li>After Effects / Motion</li>
+                            <li>Premiere Pro / FX</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>WEBDEV & BACKEND</h3>
+                        <ul>
+                            <li>Figma Prototyping & UI Layouts</li>
+                            <li>HTML5 / CSS3 (Валидный код)</li>
+                            <li>Open Server / Локальное окружение</li>
+                            <li>phpMyAdmin / Управление БД MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Сцена 5: Кейсы и Проекты -->
+        <!-- Сцена 5: Кейсы и Проекты -->
+        <section class="screen-auto" id="projects">
+            <div class="content-block wide-block">
+                <span class="system-tag">// CASE_STUDIES // ARCHIVE</span>
+                <h2>ИЗБРАННЫЕ ПРОЕКТЫ</h2>
+                
+                <div class="projects-list">
+                    <!-- Кейс 1: Blender Art -->
+<div class="projects-list">
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="img/черепое_666.png" alt="3D Сюрреализм в Blender" class="project-image">
+                            <div class="project-img-overlay">[ BLENDER_ART_01 ]</div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">3D ART PRODUCTION</span>
+                            <h3>СЮРРЕАЛИСТИЧНЫЙ АРТ-КОНЦЕПТ В BLENDER</h3>
+                            <p>Разработка сложной концептуальной 3D-сцены с акцентом на атмосферу хоррора и цифрового безумия. Работа со сложной геометрией, разрушением ассетов, симуляцией облаков/дыма и кастомным неоновым освещением. Финальный рендер оптимизирован для бесшовной интеграции в веб-интерфейсы.</p>
+                            <div class="project-buttons">
+                                <a href="img/черепос_666.png" target="_blank" class="btn btn-sm">ОТКРЫТЬ АРТ</a>
+                                <a href="#" class="btn btn-sm text-btn">ГАЛЕРЕЯ СЕТОК</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="img/2026-06-13_20-35-08.png" alt="Level Design в UE5" class="project-image">
+                            <div class="project-img-overlay">[ UE5_SYSTEM_LOGIC ]</div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">GAME DEV & LEVEL DESIGN</span>
+                            <h3>РАЗРАБОТКА ИНТЕРАКТИВНОГО ОКРУЖЕНИЯ НА UE5</h3>
+                            <p>Проектирование и сборка детализированной локации складского комплекса. Настройка продвинутого статического и динамического освещения, работа с коллизиями и оптимизация текстурной памяти. Написание Blueprint-логики для комплексных механик взаимодействия (системы дверей, шкафов, инвентаря и триггеров).</p>
+                            <div class="project-buttons">
+                                <a href="img/2026-06-13_20-35-08.png" target="_blank" class="btn btn-sm">СМОТРЕТЬ СКРИНШОТ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Кейс 3: Web-интеграция (Твой текущий сайт!) -->
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="img/2026-06-13_21-08-36.png" alt="Backend & DB Development" class="project-image">
+                            <div class="project-img-overlay">[ SERVER_SIDE_LOGIC ]</div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">FULLSTACK DEVELOPMENT</span>
+                            <h3>РАЗРАБОТКА WEB-СЕРВИСОВ И АДМИНИСТРИРОВАНИЕ БАЗ ДАННЫХ</h3>
+                            <p>Проектирование серверной логики приложений в связке с реляционными базами данных. Развертывание локальных серверов, архитектурное проектирование таблиц, связей и индексации в phpMyAdmin. Написание чистого кода в VS Code с фокусом на оптимизацию SQL-запросов, безопасность данных и автоматизацию бэкенд-процессов.</p>
+                            <div class="project-buttons">
+                                <a href="img/2026-06-13_21-08-36.png" target="_blank" class="btn btn-sm">СМОТРЕТЬ КОД</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Сцена 6: Контакты -->
+        <section class="screen" id="contacts">
+            <div class="content-block contact-block-final">
+                <span class="system-tag">// TERMINAL_CONNECTION_CLOSED //</span>
+                <h2>ОБРАТНАЯ СВЯЗЬ</h2>
+                <p class="cta-text">Ищешь 3D-джедая в команду или нужен крутой интерактивный визуал для коммерческого проекта?</p>
+                
+                <div class="contact-links">
+                    <a href="https://t.me/tap_tap_tap_tap_tap_tap" target="_blank" class="contact-link-item">
+                        <i class="fab fa-telegram"></i> <span>TELEGRAM / @tap_tap_tap_tap_tap_tap</span>
+                    </a>
+                    <a href="mailto:lmaslov@example.com" class="contact-link-item">
+                        <i class="fa-solid fa-envelope"></i> <span>EMAIL / lmaslov691@gmail.com</span>
+                    </a>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#" title="ArtStation"><i class="fab fa-artstation"></i></a>
+                    <a href="#" title="Behance"><i class="fab fa-behance"></i></a>
+                    <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
